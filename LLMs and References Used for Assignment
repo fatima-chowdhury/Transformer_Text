@@ -1,0 +1,12 @@
+-For Part C Q7, I used CHatGPT's help.
+
+-For Part C Q12, I used my Google AI Mode query:
+For optimization, can I choose both gradient checkpointing and quantization?
+Yes, you can and often should combine gradient checkpointing and quantization for optimization during training.
+They address different memory bottlenecks and can provide a powerful, synergistic effect for fitting larger models or bigger batch sizes into memory, especially on resource-constrained hardware like a single Tesla T4 GPU. 
+References:
+1)	https://aman.ai/primers/ai/grad-accum-checkpoint/#:~:text=In%20summary%2C%20gradient%20accumulation%20addresses,train()%20print_summary(result)
+2)	https://www.ibm.com/think/topics/quantization#:~:text=Authors,lower%20has%20been%20successfully%20achieved.
+
+-Table for Part C Q6 was created using Google AI Mode
+-The Python code was created with asking how to implement different sections of the model using PyTorch.
